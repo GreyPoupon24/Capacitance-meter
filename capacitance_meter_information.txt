@@ -1,0 +1,17 @@
+I created a capacitance meter that measures capacitance from 0.1uf to 1000uf
+
+The programming was done in 8051 assembly
+The microcontroller used was an AMTEL AT89LP51IC2
+A BO230XS serial USB Adaptor was used to interface with the laptop
+An LCD 1602 module was used to display the numbers
+A 22.1184MHZ crystal was used for the clock
+
+
+A 555 timer was used in the astable osscilator configuration with,Ra=980ohm,Rb=979ohm
+
+Measurements were taken with C=0.1uf,10uf,100uf,220uf,1000uf.
+
+An Eligoo UNO R3 microcontroller board was used to provide VCC to the 555 timer from a different source as using the VCC rails seemed to cause the LCD to bug out.
+The Eligoo UNO R3 was was chosen because it could also provide 3.3V which was required for the LCD's backlight.
+
+I implimented a button that multiplies or divides the final number by 1000 to cycle units between pf->nf->uf->pf
