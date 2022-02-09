@@ -1,5 +1,5 @@
 # Capacitance-meter
-This is a capacitance meter made on a breadboard. More information is included in the files.  
+This is a capacitance meter made on a breadboard. More information is included in the capacitance_meter_information.txt file.  
 
 Link to a video demo of the capacitance meter  
 
